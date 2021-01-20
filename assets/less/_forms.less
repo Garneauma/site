@@ -1,0 +1,134 @@
+// main: style.less
+
+/*----------------------------------
+	Forms
+----------------------------------*/
+
+.field {
+	height: 90px;
+	padding: 16px 0 8px 0px;
+	position: relative;
+	transition: all .3s;
+	
+	&::after, &::before {
+		background-color: @light-grey;
+		content: "";
+		height: 2px;
+		width: 100%;
+		position: absolute;
+		bottom: 6px;
+		left: 0;
+		transition: all .3s, background-color .3s;
+	}
+	
+	&::after {
+		background-color: @primary;
+		transform: scaleX(0);
+		transition: transform .3s;
+	}
+	&.error {
+		&::after { background-color: @red; }
+		&::before { background-color: fade(@red, 25%); }
+		
+		&.is-focused .field-label { color: @red; }
+		
+		.field-label { color: fade(@red, 75%); }
+	}
+	
+	&.field-textarea {
+		&.is-focused {
+			height: 260px;
+			
+			&::before { height: 216px; }
+			
+			.field-input {
+				height: 200px;
+			}
+		}
+		
+		&.has-label {
+			height: 260px;
+			
+			.field-input {
+				height: 200px;
+			}
+		}
+	}
+	
+	&.is-focused {
+		&::after {
+			transform: scaleX(1);
+		}
+		
+		&::before {
+			background-color: #f0f0f0;
+			height: 50px;
+		}
+		
+		.field-label {
+			color: @primary;
+			transform: translateY(-5px) scale(.75);
+		}
+	}
+	
+	&.has-label {
+		.field-label {
+			transform: translateY(-5px) scale(.75);
+		}	
+	}
+	
+	label.error { display: none !important; }
+	
+	.field-label {
+		color: @medium-grey;
+		display: block;
+		font-size: 20px;
+		font-weight: 300;
+		line-height: 20px;
+		position: relative;
+		transform: translateY(32px);
+		transition: all .3s, font-size .3s;
+		transform-origin: 0 50%;
+	}
+
+	.field-input {
+		background-color: transparent;
+		border: none;
+		display: block;
+		font-family: @roboto;
+		font-size: 20px;
+		line-height: 24px;
+		outline: none;
+		padding: 8px 0 12px;
+		position: relative;
+		resize: none;
+		width: 100%;
+		height: 50px;
+		-webkit-appearance: none;
+	}
+}
+
+.validetta-bubble { display: none; }
+
+.message {
+	margin: 0 0 @content-margin;
+	padding: @content-padding;
+	
+	&.error {
+		border: 1px solid @red;
+		color: @red;
+	}
+	
+	&.success {
+		border: 1px solid @green;
+		color: @green;
+	}
+	
+	p {
+		font-weight: bold;
+		
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}

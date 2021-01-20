@@ -1,0 +1,57 @@
+// main: style.less
+
+/*----------------------------------
+	Utilities
+----------------------------------*/
+
+.clearfix { .clearfix(); }
+
+.pull-right { float: right; }
+.pull-left { float: left; }
+
+.hidden { display: none !important; }
+
+.list-unstyled {
+	margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.row {
+	margin-left: -@content-margin-half;
+	margin-right: -@content-margin-half;
+	
+	.clearfix();
+	
+	.col {
+		float: left;
+		padding-left: @content-padding-half;
+		padding-right: @content-padding-half;
+	}
+	
+	&.one-third {
+		.col { 
+			width: 33.3333%; 
+		}
+	}
+	
+	&.half {
+		.col { 
+			width: 50%; 
+			
+			@media(max-width: @screen-sm-max) {
+				width: 100%;
+			}
+		}
+	}
+}
+
+.icon { display: inline-block; }
+
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+.bottom-buttons {
+	margin-top: (@content-margin)*5;
+}
