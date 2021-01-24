@@ -1,0 +1,218 @@
+[
+  {
+    "title": "Before You Begin",
+    "displayTitle": "Before You Begin",
+    "body": "",
+    "_classes": "module-0",
+    "pageBody": "",
+    "linkText": "<span>Start</span>",
+    "duration": "5 min",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5f68a3845270d240e4dc4619",
+    "_type": "page",
+    "_parentId": "course",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_excludeAssessments": false
+    },
+    "_bookmarking": {
+      "_isEnabled": true,
+      "_level": "inherit"
+    }
+  },
+  {
+    "title": "Money Laundering",
+    "displayTitle": "Money Laundering",
+    "body": "",
+    "_classes": "module-1",
+    "pageBody": "",
+    "linkText": "<span>Start</span>",
+    "duration": "30 min",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5f68a3845270d240e4dc461b",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_excludeAssessments": false
+    },
+    "_bookmarking": {
+      "_isEnabled": true,
+      "_level": "inherit"
+    }
+  },
+  {
+    "title": "Seizure Authorities",
+    "displayTitle": "Seizure Authorities",
+    "body": "",
+    "_classes": "module-2",
+    "pageBody": "",
+    "linkText": "<span>Start</span>",
+    "duration": "40 min",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5f68a3845270d240e4dc461c",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_excludeAssessments": false
+    },
+    "_bookmarking": {
+      "_isEnabled": true,
+      "_level": "inherit"
+    }
+  },
+  {
+    "title": "Indicators",
+    "displayTitle": "Indicators",
+    "body": "",
+    "_classes": "module-3",
+    "pageBody": "",
+    "linkText": "<span>Start</span>",
+    "duration": "20 min",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5f68a3845270d240e4dc461d",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_excludeAssessments": false
+    },
+    "_bookmarking": {
+      "_isEnabled": true,
+      "_level": "inherit"
+    }
+  },
+  {
+    "title": "Case Studies",
+    "displayTitle": "Case Studies",
+    "body": "",
+    "_classes": "module-4",
+    "pageBody": "",
+    "linkText": "<span>Start</span>",
+    "duration": "60 min",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_id": "5f68a3845270d240e4dc461e",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_excludeAssessments": false
+    },
+    "_bookmarking": {
+      "_isEnabled": true,
+      "_level": "inherit"
+    }
+  },
+  {
+    "title": "Assets",
+    "displayTitle": "Assets",
+    "body": "",
+    "_classes": "",
+    "pageBody": "",
+    "linkText": "<span>View</span>",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": true,
+    "_isAvailable": false,
+    "_isHidden": true,
+    "_isVisible": false,
+    "_id": "5f68a3845270d240e4dc461a",
+    "_parentId": "course",
+    "_type": "page",
+    "_graphic": {
+      "alt": "",
+      "src": ""
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_excludeAssessments": false
+    },
+    "_bookmarking": {
+      "_isEnabled": true,
+      "_level": "inherit"
+    }
+  }
+]
